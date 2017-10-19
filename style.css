@@ -1,0 +1,333 @@
+ /*/ ------- CSS SHOW TIME ------- /*/
+/*/ ------- IMPORT ------- /*/
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
+ /*/ ....... IMPORT......... /*/
+
+
+
+/*/ ------- GLOBAL ------- /*/
+* {
+   /*border: 0.5px solid lightgrey;*/
+   font-family: 'Raleway', sans-serif;
+}
+
+header,
+.main-side,
+.content,
+footer {
+   /*border: 3px solid red;*/
+}
+
+.container {
+   box-sizing: border-box;
+   width: 70%;
+   margin: 0 auto;
+}
+
+h1 {
+   margin: 0 0;
+}
+ /*/ ....... GLOBAL ......... /*/
+
+
+
+
+/*/ ------- HEADER ------- /*/
+header {
+   padding-top: 20px;
+   padding-bottom: 30px;
+   background-color: #232d3b;
+   border-bottom: 8px solid #ee5f15;
+   color: white;
+}
+
+header .logo,
+header h1 {
+   display: inline-block;
+   margin: 0 0;
+   color: white;
+}
+
+header h1 {
+   font-size: 30px;
+}
+
+header .light {
+   font-weight: 300;
+}
+
+header nav,
+header ul,
+header li {
+   display: inline-block;
+   margin: 0 0;
+}
+
+nav {
+   float:right;
+   padding-top: 10px;
+}
+      .clearfix::after{
+         content: "";
+         display: table;
+         clear: both;
+      }
+
+nav a {
+   color: #60666e;
+   font-weight: 300;
+   font-size: 1em;
+}
+
+nav li {
+   margin-left: 35px;
+}
+
+nav li:first-child {
+   margin-left: 0;
+}
+
+
+nav .active,
+nav a:hover {
+   color: white;
+}
+
+
+.btn-sign-up {
+   background-color: #a3d39c;
+   border-radius: 5px;
+   box-shadow: 0px 3px #739e6c;
+   padding: 12px 25px;
+   color: white;
+   font-weight: 400;
+}
+
+.btn-sign-up:hover {
+   background-color: #739e6c;
+   box-shadow: 0px 3px #506e4b;
+}
+ /*/ ....... HEADER ......... /*/
+
+
+
+
+/*/ ------- MAIN-SIDE ------- /*/
+.main-side {
+   min-height: 710px;
+   background-color: #ff7d36;
+   padding-top: 0.5em;
+   text-align: center;
+   color: white;
+   border-bottom: 10px solid #ff742c;
+}
+
+.main-side h1 {
+   margin-top: 15px;
+   margin-bottom: 50px;
+   font-weight: 300;
+   font-size: 2.5em;
+   line-height: 70px;
+   text-shadow: 0px 6px 3px #e6631f;
+}
+
+.frame {
+   padding-bottom: 25px;
+}
+
+form {
+   font-weight: 700;
+}
+
+
+form input {
+   border-style: none;
+   outline: none;
+   font-size: 1rem;
+   vertical-align: middle;
+   padding: 15px 10px;
+   border-radius: 5px;
+   box-shadow: 0px 7px 3px #e6631f;
+   margin: 0 10px;
+}
+
+form .btn-quote {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 15px;
+   border-style: none;
+   outline: none;
+   background-color: #7accc8;
+   border-radius: 5px;
+   box-shadow: 0px 3px #4aaaa5;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 160px;
+   padding-right: 160px;
+   /*padding: 25px 40px;*/
+   color: white;
+   font-weight: 400;
+}
+
+form .btn-quote:hover {
+   background-color: #4aaaa5;
+   box-shadow: 0px 3px #428e8a;
+}
+ /*/ ....... MAIN-SIDE ......... /*/
+
+
+
+
+
+
+/*/ ------- CONTENT ------- /*/
+.content {
+   background-color: #f7f6f4;
+   padding-top: 15px;
+   padding-bottom: 25px;
+}
+
+.content h2 {
+   color: #232d3b;
+   font-size: 2em;
+   font-weight: 400;
+}
+
+.content p {
+   font-weight: 300;
+}
+
+.content .orange {
+   color: #ff742c;
+   font-weight: 400;
+}
+
+.col {
+   box-sizing: border-box;
+   display: inline-block;
+   width: 50%;
+   margin-right: -4px;
+   vertical-align: top;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+ /*/ ....... CONTENT ......... /*/
+
+
+
+
+
+
+ /*/ ------- FOOTER ------- /*/
+footer {
+   background-color: #151c27;
+   color: white;
+   border-top: 10px solid #0d131a;
+   padding-top: 15px;
+   padding-bottom: 20px;
+}
+
+footer h1,
+footer .logo {
+   display: inline-block;
+   margin: 0 0;
+   color: white;
+}
+
+footer h1 {
+   font-size: 15px;
+}
+
+footer img {
+   margin: 0 0;
+   width: 16px;
+}
+
+footer .light {
+   font-weight: 300;
+}
+
+footer h3 {
+   display: inline-block;
+   font-size: 0.65rem;
+   color: #4c5c74;
+}
+
+footer input {
+   /*display: inline-block;*/
+   border-style: none;
+   background-color: #080c11;
+   color: white;
+   margin-top: 7px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-left: 20px;
+   padding-right: 100px;
+   border-top-left-radius: 7px;
+   border-bottom-left-radius: 7px;
+}
+
+footer .envframe {
+   display: inline-block;
+   padding: 20px;
+   border-top-right-radius: 7px;
+   border-bottom-right-radius: 7px;
+   background-color: #5dbab5;
+   margin-left: -4px;
+}
+
+footer .envframe:hover {
+   background-color: #459692;
+}
+
+footer .container {
+   position: relative;
+}
+
+footer .social-media {
+   position: absolute;
+   right: 0;
+   bottom: 15px;
+   display: inline-block;
+   padding: 0;
+   margin-left: 10px;
+   text-align: center;
+
+}
+
+.social-square {
+   margin-top: 10px;
+   font-size: 1.75em;
+   background-color: yellow;
+   display: inline-block;
+   margin-left: 20px;
+   border-radius: 7px;
+   width: 50px;
+   height: 50px;
+   line-height: 50px;
+}
+
+.social-square:hover {
+   transform: scale(1.1);
+}
+
+footer .rss {
+   background-color: #ffaa16;
+   box-shadow: inset 0 -3px #d38600;
+}
+
+footer .dribble {
+   background-color: #ec5b95;
+   box-shadow: inset 0 -3px #d30054;
+}
+
+footer .twitter {
+   background-color: #00aeef;
+   box-shadow: inset 0 -3px #0081b1;
+}
+footer .facebook {
+   background-color: #0054a6;
+   box-shadow: inset 0 -3px #003a72;
+}
+  /*/ ....... FOOTER ......... /*/
